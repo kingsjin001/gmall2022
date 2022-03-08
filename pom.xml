@@ -6,7 +6,11 @@
 
     <groupId>org.example</groupId>
     <artifactId>gmall2022</artifactId>
+    <packaging>pom</packaging>
     <version>1.0</version>
+    <modules>
+        <module>gmall-flink-cdc</module>
+    </modules>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
