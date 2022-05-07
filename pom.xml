@@ -10,11 +10,7 @@
     <version>1.0</version>
     <modules>
         <module>gmall-flink-cdc</module>
+        <module>gmall-realtime</module>
     </modules>
-
-    <properties>
-        <maven.compiler.source>8</maven.compiler.source>
-        <maven.compiler.target>8</maven.compiler.target>
-    </properties>
 
 </project>
