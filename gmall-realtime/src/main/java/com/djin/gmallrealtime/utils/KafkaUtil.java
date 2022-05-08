@@ -7,9 +7,12 @@ import org.apache.kafka.clients.consumer.ConsumerConfig;
 
 import java.util.Properties;
 
+/**
+ * @author dj
+ */
 public class KafkaUtil {
-    private static String KAFKA_SERVER = "node001:9092,node002:9092,node003:9092";
-    private static Properties properties = new Properties();
+    private static final String KAFKA_SERVER = "node001:9092,node002:9092,node003:9092";
+    private static final Properties properties = new Properties();
     static {
         properties.setProperty("bootstrap.servers", KAFKA_SERVER);
     }

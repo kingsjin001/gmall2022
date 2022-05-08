@@ -9,8 +9,13 @@ import org.apache.kafka.connect.data.Field;
 import org.apache.kafka.connect.data.Struct;
 import org.apache.kafka.connect.source.SourceRecord;
 
+/**
+ * @author dj
+ */
 public class MyJsonDeserializationSchema implements DebeziumDeserializationSchema {
-    // 自定义数据解析器
+    /**
+     * 自定义数据解析器
+     */
     @Override
     public TypeInformation getProducedType() {
         return TypeInformation.of(String.class);
